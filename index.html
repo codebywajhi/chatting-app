@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chatting app </title>
+    <!-- SERVER SIDE JS FILE LINK  -->
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <!-- <-- CLIENT SIDE JS FILE LINK  -->
+    <script src="js/client.mjs"></script>
+    <!-- <script src="http://localhost:8000"></script> -->
+    <!-- CSS FILE LINK  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="/css/chats.png" alt="">
+        </nav>
+    </header>
+    <div class="container" id="container">
+        <div class="right-hand text message ">
+            hey wajhi
+        </div>
+        <div class="left-hand text message ">
+            hey farhan !
+        </div>
+
+    </div>
+    <div class="typing-sec" id="form">
+        <form action="#">
+            <input id="message-input" type="text" action="submit" name="type" method>
+            <button action="submit" class="btn" id="btn">SUB</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
