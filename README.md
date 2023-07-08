@@ -1,21 +1,8 @@
 # chatting-app
-# first i have done this Html 
-# <header>
-        <img src="/css/chats.png" alt="">
-        <h1> Welcome to the Chatting App </h1>
-    </header>
-    <div class="container" id="container"></div>
-    <div class="typing-sec" id="form">
-        <form action="#" class="input-box">
-            <input id="message-input" type="text" action="submit" name="type" method>
-            <button action="submit" class="btn" id="btn">SUB</button>
+first i have done this Html 
 
-        </form>
-    </div>
-
-
-  # then i make my nodeServer folder 
-  # install packages node nodemon express socket.io 
+   then i make my nodeServer folder 
+  # install Packages 
   this all after installing ( npm )  Node Package Manager
   "author": "wajhi",
   "license": "ISC",
@@ -26,21 +13,18 @@
     "prompt": "^1.3.0",
     "socket.io": "^4.7.0"
   }
-  # uin which all the server files you can get 
-  # I use sever socket.io dor response to the client 
+   in which all the server files you can get 
+   I use sever socket.io dor response to the client 
 
+  and for the client side I make a new client.js file and install all the npm packages to run the client-side code 
+  then instructing to ask the prompt question to the user 
 
-
-
-
- # and for the client side I make a new client.js file and install all the npm packages to run the client-side code 
- # then instructing to ask the prompt question to the user 
-
- # You can run this app by typing 
+  
+ You can run this app by typing 
 # cd nodeServer
 # nodemon server.js
 
-# and it will start to run 
+ and it will start to run 
 
 Author [ Wajhi ur Rehman ]
  
