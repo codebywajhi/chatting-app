@@ -9,7 +9,7 @@
   <h1>Welcome to My GitHub Repository!</h1>
 
   <h2>Introduction</h2>
-  <p>This repository showcases a Chatting App project developed by Wajhi ur Rehman. The app includes both server-side and client-side components, allowing users to interact in real-time through a chat interface.</p>
+  <p>This repository showcases a Chatting App project developed by Me <a href="https://www.linkedin.com/in/wajhi-qureshi-0a9727253">LinkedIn</a>. The app includes both server-side and client-side components, allowing users to interact in real-time through a chat interface.</p>
 
   <h2>Overview</h2>
   <p>The project is structured as follows:</p>
