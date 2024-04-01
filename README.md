@@ -1,31 +1,44 @@
-# chatting-app
-first i have done this Html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <h1>Chatting App</h1>
 
-   then i make my nodeServer folder 
-  # install Packages 
-  this all after installing ( npm )  Node Package Manager
-  "author": "wajhi",
-  "license": "ISC",
-  "dependencies": {
-    "Express": "^4.18.2",
-    "node": "^20.3.1",
-    "nodemon": "^2.0.22",
-    "prompt": "^1.3.0",
-    "socket.io": "^4.7.0"
-  }
-   in which all the server files you can get 
-   I use sever socket.io dor response to the client 
+  <p>First, I created the HTML structure for the app.</p>
 
-  and for the client side I make a new client.js file and install all the npm packages to run the client-side code 
-  then instructing to ask the prompt question to the user 
+  <h2>NodeServer Folder</h2>
+  <p>In the NodeServer folder, I installed the necessary packages using npm (Node Package Manager).</p>
+  <pre>
+    "author": "Wajhi",
+    "license": "ISC",
+    "dependencies": {
+      "Express": "^4.18.2",
+      "node": "^20.3.1",
+      "nodemon": "^2.0.22",
+      "prompt": "^1.3.0",
+      "socket.io": "^4.7.0"
+    }
+  </pre>
+  <p>The server files are available in this folder, and I utilized socket.io for server-client communication.</p>
 
-  
- You can run this app by typing 
-# cd nodeServer
-# nodemon server.js
+  <h2>Client Side</h2>
+  <p>For the client-side, I created a new client.js file and installed all the necessary npm packages.</p>
+  <p>The app prompts questions to the user using the prompt package.</p>
 
- and it will start to run 
+  <h2>Running the App</h2>
+  <p>To run the app, navigate to the NodeServer directory and run the following commands:</p>
+  <pre>
+    cd nodeServer
+    nodemon server.js
+  </pre>
+  <p>This will start the app and make it available for use.</p>
 
-Author [ Wajhi ur Rehman ]
- 
-   
+  <h2>Author</h2>
+  <p>Author: Wajhi ur Rehman</p>
+</div>
+</body>
+</html>
