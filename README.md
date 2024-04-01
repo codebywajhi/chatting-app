@@ -6,39 +6,34 @@
 </head>
 <body>
 <div class="container">
-  <h1>Chatting App</h1>
+  <h1>Welcome to My GitHub Repository!</h1>
 
-  <p>First, I created the HTML structure for the app.</p>
+  <h2>Introduction</h2>
+  <p>This repository showcases a Chatting App project developed by Wajhi ur Rehman. The app includes both server-side and client-side components, allowing users to interact in real-time through a chat interface.</p>
 
-  <h2>NodeServer Folder</h2>
-  <p>In the NodeServer folder, I installed the necessary packages using npm (Node Package Manager).</p>
-  <pre>
-    "author": "Wajhi",
-    "license": "ISC",
-    "dependencies": {
-      "Express": "^4.18.2",
-      "node": "^20.3.1",
-      "nodemon": "^2.0.22",
-      "prompt": "^1.3.0",
-      "socket.io": "^4.7.0"
-    }
-  </pre>
-  <p>The server files are available in this folder, and I utilized socket.io for server-client communication.</p>
+  <h2>Overview</h2>
+  <p>The project is structured as follows:</p>
+  <ul>
+    <li><strong>HTML Structure:</strong> Initial HTML structure for the app.</li>
+    <li><strong>NodeServer Folder:</strong> Backend server code using Node.js and Express.js, with socket.io for real-time communication.</li>
+    <li><strong>Client Side:</strong> Frontend client code written in JavaScript (client.js) with prompt functionality for user interaction.</li>
+  </ul>
 
-  <h2>Client Side</h2>
-  <p>For the client-side, I created a new client.js file and installed all the necessary npm packages.</p>
-  <p>The app prompts questions to the user using the prompt package.</p>
+  <h2>Usage</h2>
+  <p>To run the app locally:</p>
+  <ol>
+    <li>Navigate to the NodeServer folder in your terminal.</li>
+    <li>Install dependencies using npm: <code>npm install</code></li>
+    <li>Start the server using nodemon: <code>nodemon server.js</code></li>
+    <li>Access the app in your browser at <code>http://localhost:3000</code></li>
+  </ol>
 
-  <h2>Running the App</h2>
-  <p>To run the app, navigate to the NodeServer directory and run the following commands:</p>
-  <pre>
-    cd nodeServer
-    nodemon server.js
-  </pre>
-  <p>This will start the app and make it available for use.</p>
+  <h2>Contributions</h2>
+  <p>Contributions to this project are welcome. Feel free to fork the repository and submit pull requests for improvements or bug fixes.</p>
 
   <h2>Author</h2>
   <p>Author: Wajhi ur Rehman</p>
+  <p>Contact: <a href="https://www.linkedin.com/in/wajhi-qureshi-0a9727253">LinkedIn</a></p>
 </div>
 </body>
 </html>
